@@ -43,23 +43,6 @@ img{
 1 @media (min-width:321px) and (max-width:1080px) and (-webkit-device-pixel-ratio: 2) {
 2 }
 
-手机端全屏蒙层居中弹窗样式
-
-1 .pop{width:100%;background-color:rgba(0,0,0,.6);position:fixed;left:0;top:0;z-index:999;height:100%;display:block;}
-2 .outside{width:100%;height:100%;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;}
-3 .inside{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center;}
-4 .inPops{margin:0 auto;background-color:#fff;/*width:68%;可以根据要求改变宽度*/position:relative;text-align:center;border-radius:5px;-webkit-border-radius:5px;}
-
-html结构
-1 <div class="pop">
-2     <div class="outside">
-3         <div class="inside">
-4             <div class="inPops">
-5                 ...your html code
-6             </div>
-7         </div>
-8     </div>
-9 </div>
 
 规定段落中的文本单行且溢出部分显示...
 
